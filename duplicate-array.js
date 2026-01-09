@@ -1,0 +1,5 @@
+function noDuplicate(){
+
+}
+
+noDuplicate();
