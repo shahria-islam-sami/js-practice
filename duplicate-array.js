@@ -1,5 +1,8 @@
-function noDuplicate(){
+function noDuplicate(personList){
+    for(const person of personList){
+        console.log(person);
+    }
 
 }
-
-noDuplicate();
+const personList = ['abul','kabul', 'cabul','abul', 'babul','kabul', 'babul','bulbul','dabul','kabul', 'dabul','babul']
+noDuplicate(personList);
